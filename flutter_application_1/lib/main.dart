@@ -3,8 +3,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   //runApp(const MyApp());
-  runApp(MaterialApp(
-    home: Scaffold(
+  runApp(MaterialApp(home: Home()));
+}
+
+class Home extends StatelessWidget {
+  const Home({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    //Build function is to reload app when change it
+    return Scaffold(
       appBar: AppBar(
         title: Text(
           'School App',
@@ -39,14 +47,13 @@ void main() {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        child: Text("Click B"),
+        child: Text("Click "),
         onPressed: () => {print("ffff")},
         backgroundColor: Colors.orange[600],
       ),
-    ),
-  ));
+    );
+  }
 }
-
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
 
