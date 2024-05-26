@@ -27,25 +27,25 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Text(
-          'Hello Every One',
-          style: TextStyle(
-            fontSize: 25.0,
-            color: Colors.blueGrey,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            fontFamily: "Danfo",
-          ),
-          //style: GoogleFonts.laila(),
-          // style: GoogleFonts.lato(
-          //   fontSize: 25.0,
-          //   color: Colors.blueGrey,
-          //   fontWeight: FontWeight.bold,
-          //   letterSpacing: 2.0,
+      body: Center(child: Image.asset('assets/images/bg5.jpg')
+          // Text(
+          //   'Hello Every One',
+          //   style: TextStyle(
+          //     fontSize: 25.0,
+          //     color: Colors.blueGrey,
+          //     fontWeight: FontWeight.bold,
+          //     letterSpacing: 2.0,
+          //     fontFamily: "Danfo",
+          //   ),
+          //   //style: GoogleFonts.laila(),
+          //   // style: GoogleFonts.lato(
+          //   //   fontSize: 25.0,
+          //   //   color: Colors.blueGrey,
+          //   //   fontWeight: FontWeight.bold,
+          //   //   letterSpacing: 2.0,
+          //   // ),
           // ),
-        ),
-      ),
+          ),
       floatingActionButton: FloatingActionButton(
         child: Text("Click "),
         onPressed: () => {print("ffff")},
